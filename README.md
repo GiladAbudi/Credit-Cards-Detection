@@ -1,7 +1,7 @@
 # Credit Cards Detection
 
 Java Spring scalable application that uses HTTP Rest API to receive messages and scan them for credit card numbers,
-in case of detection store event containing details of the message and detection information in the database.
+in case of detection store the event containing details of the message and detection information in the database.
 
 ### Using: 
 - Spring Framework 
@@ -23,7 +23,7 @@ the service save the message in the DB(MongoDB).
 
 
 ### How to run:
-- Run the RabbitMQ & MongoDB container.(RabbitMQ Management: http://localhost:15672/#/)
+- Run the RabbitMQ & MongoDB containers.(RabbitMQ Management: http://localhost:15672/#/)
 - Run the Application.
 
 
